@@ -32,6 +32,7 @@
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
 cd chown_changeOwner
 cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
 ls -l
 sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
 ls -l
@@ -53,6 +54,7 @@ ls -l
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
 cd chown_changeOwner
 cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
 ls -l
 sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
 ls -l
@@ -74,6 +76,7 @@ ls -l
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
 cd chown_changeOwner
 cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
 ls -l
 sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
 ls -l
@@ -128,6 +131,7 @@ ls -l
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
 cd chown_changeOwner
 cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
 ls -l
 sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
 ls -l
@@ -208,6 +212,7 @@ echo 'alias git="/opt/local/bin/git"' &gt;&gt; ~/bashrc_folder/macports_alias</c
 git clone https://github.com/trygfmi/chown_changeOwner
 cd chown_changeOwner
 cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
 ls -l
 sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
 ls -l
@@ -273,6 +278,7 @@ ls -l
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
 cd chown_changeOwner
 cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
 ls -l
 sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
 ls -l
@@ -311,4 +317,3 @@ ls -l
 
 
 <p></p>
-
