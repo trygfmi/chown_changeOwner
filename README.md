@@ -29,7 +29,17 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwnercd chown_changeOwnercat start_chown_changeOwner.shchmod 744 start_chown_changeOwner.shls -lsudo chown $(who | awk '{print $1}') start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=your environment user namesudo chown root start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=root</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
+cd chown_changeOwner
+cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
+ls -l
+sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=your environment user name
+sudo chown root start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=root</code></pre>
 
 
 
@@ -48,7 +58,18 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/chown_changeOwnercd chown_changeOwnercat start_chown_changeOwner.shchmod 744 start_chown_changeOwner.shls -lsudo chown $(who | awk '{print $1}') start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=your environment user namesudo chown root start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=root</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/chown_changeOwner
+cd chown_changeOwner
+cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
+ls -l
+sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=your environment user name
+sudo chown root start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=root</code></pre>
 
 
 
@@ -67,7 +88,17 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwnercd chown_changeOwnercat start_chown_changeOwner.shchmod 744 start_chown_changeOwner.shls -lsudo chown $(who | awk '{print $1}') start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=your environment user namesudo chown root start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=root</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
+cd chown_changeOwner
+cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
+ls -l
+sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=your environment user name
+sudo chown root start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=root</code></pre>
 
 
 
@@ -133,12 +164,22 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwnercd chown_changeOwnercat start_chown_changeOwner.shchmod 744 start_chown_changeOwner.shls -lsudo chown $(who | awk '{print $1}') start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=your environment user namesudo chown root start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=root</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
+cd chown_changeOwner
+cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
+ls -l
+sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=your environment user name
+sudo chown root start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=root</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world<br>bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world<br>bash: ./start_chown_changeOwner.sh: Permission denied</code></pre></p>
 </details>
 </details>
 
@@ -157,7 +198,8 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit --version</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git --version</code></pre>
 
 
 
@@ -189,7 +231,8 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install gitecho 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
+echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
 
 
 
@@ -201,12 +244,23 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/chown_changeOwnercd chown_changeOwnercat start_chown_changeOwner.shchmod 744 start_chown_changeOwner.shls -lsudo chown $(who | awk '{print $1}') start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=your environment user namesudo chown root start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=root</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/chown_changeOwner
+cd chown_changeOwner
+cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
+ls -l
+sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=your environment user name
+sudo chown root start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=root</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world<br>bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world<br>bash: ./start_chown_changeOwner.sh: Permission denied</code></pre></p>
 </details>
 </details>
 
@@ -289,12 +343,22 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwnercd chown_changeOwnercat start_chown_changeOwner.shchmod 744 start_chown_changeOwner.shls -lsudo chown $(who | awk '{print $1}') start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=your environment user namesudo chown root start_chown_changeOwner.shls -l./start_chown_changeOwner.sh #user=root</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
+cd chown_changeOwner
+cat start_chown_changeOwner.sh
+chmod 744 start_chown_changeOwner.sh
+ls -l
+sudo chown $(who | awk '{print $1}') start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=your environment user name
+sudo chown root start_chown_changeOwner.sh
+ls -l
+./start_chown_changeOwner.sh #user=root</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world<br>bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world<br>bash: ./start_chown_changeOwner.sh: Permission denied</code></pre></p>
 </details>
 
 
@@ -308,7 +372,7 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>不可</code></pre>
+<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>不可</code></pre></p>
 </details>
 </details>
 
