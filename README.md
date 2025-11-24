@@ -3,7 +3,9 @@
 
 
 
-<p>このリポジトリは、chownコマンドを実行してshell scriptが実行できるか検証します</p>
+<div class="wp-block-group">
+<p>このリポジトリは、chownとchmodコマンドを実行してシェルスクリプトが実行できるか検証します</p>
+</div>
 
 
 
@@ -11,9 +13,11 @@
 
 
 
+<div class="wp-block-group">
 <ol class="wp-block-list">
 <li>git</li>
 </ol>
+</div>
 
 
 
@@ -21,7 +25,8 @@
 
 
 
-<p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、chownコマンドを実行してshell scriptが実行できるか確認してください</p>
+<div class="wp-block-group">
+<p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、chownとchmodコマンドを実行してシェルスクリプトが実行できるか確認してください</p>
 
 
 
@@ -29,6 +34,7 @@
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
 cd chown_changeOwner
 cat start_chown_changeOwner.sh
@@ -47,6 +53,7 @@ ls -l
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello chown command world
 bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 </details>
+</div>
 
 
 
@@ -54,6 +61,7 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <h4 class="wp-block-heading">MacPorts</h4>
 
 
@@ -77,6 +85,7 @@ ls -l
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello chown command world
 bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 </details>
+</div>
 
 
 
@@ -84,10 +93,12 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <h4 class="wp-block-heading">WSL2</h4>
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
 cd chown_changeOwner
 cat start_chown_changeOwner.sh
@@ -106,6 +117,7 @@ ls -l
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello chown command world
 bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 </details>
+</div>
 
 
 
@@ -113,6 +125,7 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
 
 
@@ -120,6 +133,9 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>不可</code></pre>
 </details>
+</div>
+</div>
+</div>
 
 
 
@@ -127,6 +143,7 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <h3 class="wp-block-heading">ubuntu</h3>
 
 
@@ -136,11 +153,13 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを端末に打ち込んでcommand not foundが出なければokです</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git --version</code></pre>
+</div>
 
 
 
@@ -148,11 +167,13 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>端末でcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo apt install git</code></pre>
+</div>
 
 
 
@@ -160,6 +181,7 @@ bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
 
 
@@ -179,8 +201,10 @@ ls -l
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world<br>bash: ./start_chown_changeOwner.sh: Permission denied</code></pre></p>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello chown command world
+bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 </details>
+</div>
 </details>
 
 
@@ -194,6 +218,7 @@ ls -l
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドをターミナルに打ち込んでcommand not foundが出なければokです</p>
 
 
@@ -220,6 +245,7 @@ git --version</code></pre>
 
 
 [![MacPortsでインストールしたコマンドのエイリアス設定](https://ss523971.stars.ne.jp/todo/wp-content/uploads/2025/10/thumbnail_macports2.png,)](https://ss523971.stars.ne.jp/todo/how-to-setup-macports-alias)
+</div>
 
 
 
@@ -227,12 +253,14 @@ git --version</code></pre>
 
 
 
+<div class="wp-block-group">
 <p>ターミナルでcommand not foundが出たコマンドを以下のコマンドでインストールしてエイリアスを設定してください</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
 echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
+</div>
 
 
 
@@ -240,6 +268,7 @@ echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
 
 
@@ -260,8 +289,10 @@ ls -l
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world<br>bash: ./start_chown_changeOwner.sh: Permission denied</code></pre></p>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello chown command world
+bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 </details>
+</div>
 </details>
 
 
@@ -275,6 +306,7 @@ ls -l
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドをプロンプトに打ち込んでcommand not foundが出なければokです</p>
 
 
@@ -304,6 +336,7 @@ ls -l
 
 
 [![](https://ss523971.stars.ne.jp/todo/wp-content/uploads/2025/10/msys2_thumbnail_1920_1080.png)](https://ss523971.stars.ne.jp/todo/how-to-install-msys2)
+</div>
 
 
 
@@ -311,6 +344,7 @@ ls -l
 
 
 
+<div class="wp-block-group">
 <p>プロンプトでcommand not foundが出たコマンドを以下のコマンドでインストールしてください</p>
 
 
@@ -328,6 +362,7 @@ ls -l
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
+</div>
 
 
 
@@ -335,6 +370,7 @@ ls -l
 
 
 
+<div class="wp-block-group">
 <p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
 
 
@@ -343,6 +379,7 @@ ls -l
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeOwner
 cd chown_changeOwner
 cat start_chown_changeOwner.sh
@@ -358,8 +395,10 @@ ls -l
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world<br>bash: ./start_chown_changeOwner.sh: Permission denied</code></pre></p>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello chown command world
+bash: ./start_chown_changeOwner.sh: Permission denied</code></pre>
 </details>
+</div>
 
 
 
@@ -367,14 +406,18 @@ ls -l
 
 
 
+<div class="wp-block-group">
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<p><pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>不可</code></pre></p>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>不可</code></pre>
 </details>
+</div>
+</div>
 </details>
+</div>
 
 
 
@@ -383,11 +426,3 @@ ls -l
 
 
 <p>ファイルの実行権限がrwxr--r--の状態で実行しています。初めはシェルを実行しているユーザー名を設定するので実行できますが、2回目はファイルのユーザー所有権をrootにしていて、グループもその他も実行権限が無いので実行できないはずです</p>
-
-
-
-<p></p>
-
-
-
-<p></p>
